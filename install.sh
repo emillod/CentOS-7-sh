@@ -25,8 +25,7 @@ sed -i 's/#Protocol 2/Protocol 2/' /etc/ssh/sshd_config
 systemctl restart sshd
 mkdir -p ~/.ssh
 chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
-echo "### SSH ###
-Również nastąpiła zmiana portu SSH na 2641"
+echo "### SSH ###"
 echo "Rozpoczynam generowanie klucza SSH"
 ssh-keygen -t rsa
 echo "### KLUCZ ZOSTAŁ WYGENEROWANY ###
