@@ -21,7 +21,6 @@ echo "Zainstalowano:
 - Apache
 - MySQL MariaDB
 - PHP"
-sed -i 's/#Port [0-9]*/Port 2641/' /etc/ssh/sshd_config
 sed -i 's/#Protocol 2/Protocol 2/' /etc/ssh/sshd_config
 systemctl restart sshd
 mkdir -p ~/.ssh
