@@ -1,3 +1,5 @@
+yum update -y
+yum install -y firewalld
 systemctl start firewalld.service
 firewall-cmd --state
 firewall-cmd --get-default-zone
