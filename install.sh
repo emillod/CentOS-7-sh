@@ -12,7 +12,7 @@ mysql_secure_installation
 systemctl enable mariadb.service
 yum -y install php php-mysql
 systemctl restart httpd.service
-yum -y install php-fpm
+yum -y install php-fpm phpmyadmin
 echo "### ZAKOŃCZONO INSTALACJĘ PAKIETÓW ###"
 echo "Zainstalowano:
 - Nano Edytor
